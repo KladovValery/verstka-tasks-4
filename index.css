@@ -1,0 +1,73 @@
+body
+{
+    column-count: 2;
+    column-rule: 4px solid #000000;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+}
+
+h1 
+{
+    column-span: all;
+    font-style: italic;
+    font-size: 43px;
+    margin: 10px;
+}
+
+blockquote
+{
+    font-style: italic;
+}
+
+.column2
+{
+    column-count: 2;
+    column-rule: 2px solid #000000;
+}
+
+.column3
+{
+    column-count: 3;
+}
+
+.frame-one
+{
+    border: 6px solid black;
+    border-style: double;
+    font-size: 35px;
+    column-span: all;
+}
+
+.space-letters
+{
+    letter-spacing: 18px;
+}
+
+.word-right
+{
+    text-align: right;
+}
+
+p
+{
+    font-family: 'Inconsolata', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 20px;
+}
+
+td
+{
+    text-align: center;
+}
+
+@font-face
+{
+    font-family: 'Inconsolata', sans-serif;
+}
