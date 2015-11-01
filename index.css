@@ -1,7 +1,11 @@
 body
 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
     column-count: 2;
-    column-rule: 4px solid #000000;
+    -webkit-column-rule: 4px solid #000;
+    -moz-column-rule: 4px solid #000;
+    column-rule: 4px solid #000;
 }
 
 h1, h2, h3
@@ -14,6 +18,8 @@ h1, h2, h3
 
 h1 
 {
+    -webkit-column-span: all;
+    -moz-column-span: all;
     column-span: all;
     font-style: italic;
     font-size: 43px;
@@ -27,20 +33,20 @@ blockquote
 
 .column2
 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
     column-count: 2;
+    -webkit-column-rule: 2px solid #000000;
+    -moz-column-rule: 2px solid #000000;
     column-rule: 2px solid #000000;
 }
 
-.column3
+.frame-from-below
 {
-    column-count: 3;
-}
-
-.frame-one
-{
-    border: 6px solid black;
-    border-style: double;
+    border: 6px double black;
     font-size: 35px;
+    -webkit-column-span: all;
+    -moz-column-span: all;
     column-span: all;
 }
 
@@ -56,7 +62,7 @@ blockquote
 
 p
 {
-    font-family: 'Inconsolata', sans-serif;
+    font-family: sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     text-indent: 20px;
@@ -69,5 +75,5 @@ td
 
 @font-face
 {
-    font-family: 'Inconsolata', sans-serif;
+    font-family: sans-serif;
 }
